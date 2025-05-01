@@ -2,8 +2,8 @@
  * Created by osemeodigie on 30/05/2017.
  */
 
-var task    = require("./lib/Task")
-var TaskRunner    = require("./lib/TaskRunner")
+import task from "./lib/Task"
+import { TaskRunner } from "./lib/TaskRunner"
 
 console.log("Started the task runner test file...")
 
@@ -21,16 +21,16 @@ taskRunner.addTask(task) // task 7
 taskRunner.addTask(task) // task 8
 taskRunner.addTask(task) // task 9
 taskRunner.addTask(task) // task 10
-taskRunner.addTask(task) // task 11
-taskRunner.addTask(task) // task 12
-taskRunner.addTask(task) // task 13
-taskRunner.addTask(task) // task 14
-taskRunner.addTask(task) // task 15
-taskRunner.addTask(task) // task 16
-taskRunner.addTask(task) // task 17
-taskRunner.addTask(task) // task 18
-taskRunner.addTask(task) // task 19
-taskRunner.addTask(task) // task 20
+// taskRunner.addTask(task) // task 11
+// taskRunner.addTask(task) // task 12
+// taskRunner.addTask(task) // task 13
+// taskRunner.addTask(task) // task 14
+// taskRunner.addTask(task) // task 15
+// taskRunner.addTask(task) // task 16
+// taskRunner.addTask(task) // task 17
+// taskRunner.addTask(task) // task 18
+// taskRunner.addTask(task) // task 19
+// taskRunner.addTask(task) // task 20
 
 
 // task started 123.23232
